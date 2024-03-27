@@ -1,0 +1,8 @@
+name: TRIGGERS
+run-name: ¡Estoy aprendiendo TRIGGERS!
+on: 
+  push:
+    branches:
+      - 'aprendiendo-github-actions'
+  issues:
+    type: [opened, edited, closed]
